@@ -156,7 +156,7 @@ class MerchantApiTest extends PHPUnit
         $this->assertNotNull($response['Status']['Message']);
         $this->assertNotNull($response['Status']['MessageRefCode']);
 
-        if($response['Status']['Code'] == 'VALIDATION_ERRORS'){
+        if($response['Status']['Code'] == StoneResponseCode::VALIDATION_ERRORS){
             $this->assertTrue(isset($response['MessageList']));
             $this->assertTrue(isset($response['MerchantReturn']));
             return;
