@@ -58,7 +58,7 @@ Para obter a versão configure seu composer.json conforme exemplo abaixo:
 
 ```json
 {
-    "name": "ntkonline/stone-sdk",
+    "name": "adrianolaselva/project",
     "authors": [
         {
             "name": "Adriano M. La Selva",
@@ -66,13 +66,9 @@ Para obter a versão configure seu composer.json conforme exemplo abaixo:
         }
     ],
     "require": {
-        "ntkonline/stone-sdk": "0.1.*"
+        "adrianolaselva/stone-sdk": "0.1.*"
     },
-    "repositories": [{
-        "type": "vcs",
-        "url": "git@bitbucket.org:ntkonline/stone-sdk.git"
-    }],
-	"prefer-stable" : true
+    "prefer-stable" : true
 }
 ```
 
