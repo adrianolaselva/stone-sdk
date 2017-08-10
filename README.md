@@ -2,14 +2,25 @@
 ## Componente de integração com API de Stone plataforma
 
 Este Projeto tem por finalidade prover uma integração menos traumática e padronizada com as API's 
-do Stone
-
+do Stone.
 
 ### Descrição
 
 Para iniciar o uso os seguintes passos devem ser executados
 
-    * Passar como parâmetro no construtor em forma de array.
+* Passar atravéz das variáveis de ambiente, as seguintes devem ser preenchidas, não havendo mais a necessidade de passar o objeto "Integracao\Credenciamento\Stone\Client" como parâmetro.
+
+```ini
+[STONE_SDK]
+STONE_HOST='https://affiliation-integration.stone.com.br'
+STONE_USERID='B1A00B80-2514-4991-9EC9-07B8B230CBEB'
+STONE_SECRETKEY='8A085D315DBB1F17DA64DE235D6F8BC493FE4B78'
+```
+
+```php
+$client = new \Integracao\Credenciamento\Stone\Client();
+
+* Passar como parâmetro no construtor em forma de array.
 
 ```php
 $client = new \Integracao\Credenciamento\Stone\Client([
@@ -22,7 +33,7 @@ $client = new \Integracao\Credenciamento\Stone\Client([
 $merchantApi = new MerchantApi($client);
 ```
 
-    * Passar como parâmetro a partir de uma instância do Client.
+* Passar como parâmetro a partir de uma instância do Client.
 
 ```php
 $client = new \Integracao\Credenciamento\Stone\Client();
