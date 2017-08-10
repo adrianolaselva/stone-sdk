@@ -2,10 +2,7 @@
 
 namespace Integracao\Stone\Credenciamento\Contracts\Request;
 
-use Integracao\Stone\Credenciamento\Contracts\Aux\OrderBy;
-use Integracao\Stone\Credenciamento\Contracts\Aux\QueryExpression;
 use Integracao\Stone\Credenciamento\Contracts\Credential;
-use Integracao\Stone\Credenciamento\Contracts\Merchant;
 
 /**
  * Class ListTerminalDevicesRequest

@@ -4,10 +4,8 @@ namespace Integracao\Stone\Credenciamento\Contracts;
 
 
 /**
- * Created by PhpStorm.
- * User: adriano
- * Date: 09/08/17
- * Time: 13:14
+ * Class Merchant
+ * @package Integracao\Stone\Credenciamento\Contracts
  */
 class Merchant implements \JsonSerializable
 {

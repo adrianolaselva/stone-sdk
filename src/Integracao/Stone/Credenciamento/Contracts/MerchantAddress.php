@@ -2,7 +2,10 @@
 
 namespace Integracao\Stone\Credenciamento\Contracts;
 
-
+/**
+ * Class MerchantAddress
+ * @package Integracao\Stone\Credenciamento\Contracts
+ */
 class MerchantAddress implements \JsonSerializable
 {
     /**

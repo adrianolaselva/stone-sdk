@@ -2,7 +2,10 @@
 
 namespace Integracao\Stone\Credenciamento\Contracts;
 
-
+/**
+ * Class BankAccount
+ * @package Integracao\Stone\Credenciamento\Contracts
+ */
 class BankAccount implements \JsonSerializable
 {
     /**

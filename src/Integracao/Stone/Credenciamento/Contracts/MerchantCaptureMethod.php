@@ -2,7 +2,10 @@
 
 namespace Integracao\Stone\Credenciamento\Contracts;
 
-
+/**
+ * Class MerchantCaptureMethod
+ * @package Integracao\Stone\Credenciamento\Contracts
+ */
 class MerchantCaptureMethod implements \JsonSerializable
 {
     /**

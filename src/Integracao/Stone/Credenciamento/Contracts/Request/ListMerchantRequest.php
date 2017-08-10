@@ -1,10 +1,8 @@
 <?php
 
 namespace Integracao\Stone\Credenciamento\Contracts\Request;
-use Integracao\Stone\Credenciamento\Contracts\Aux\OrderBy;
-use Integracao\Stone\Credenciamento\Contracts\Aux\QueryExpression;
+
 use Integracao\Stone\Credenciamento\Contracts\Credential;
-use Integracao\Stone\Credenciamento\Contracts\Merchant;
 
 /**
  * Class ListMerchantRequest
@@ -82,7 +80,7 @@ class ListMerchantRequest implements \JsonSerializable
         $this->bypassCreditAnalysis = $bypassCreditAnalysis;
         return $this;
     }
-
+    
     /**
      * @return string
      */
