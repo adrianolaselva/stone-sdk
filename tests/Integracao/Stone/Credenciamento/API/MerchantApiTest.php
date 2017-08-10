@@ -30,7 +30,7 @@ use Tests\Integracao\Stone\PHPUnit;
  */
 class MerchantApiTest extends PHPUnit
 {
-
+    
     /**
      * @var MerchantApi
      */
