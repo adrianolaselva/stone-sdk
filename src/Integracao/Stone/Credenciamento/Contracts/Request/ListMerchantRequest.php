@@ -80,7 +80,7 @@ class ListMerchantRequest implements \JsonSerializable
         $this->bypassCreditAnalysis = $bypassCreditAnalysis;
         return $this;
     }
-    
+
     /**
      * @return string
      */
