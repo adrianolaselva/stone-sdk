@@ -53,9 +53,9 @@ class MerchantApiTest extends PHPUnit
                 ->setMerchant(
                     (new Merchant())
                         ->setDocumentType(DocumentTypeConst::CNPJ)
-                        ->setDocumentNumber("06191036000186")
-                        ->setCompanyName("PCF COMECIO ALIMENTICIO LTDA")
-                        ->setTradeName(substr("BONAPARTE SHOPPING PLAZA", 0, 22))
+                        ->setDocumentNumber("97268631000128")
+                        ->setCompanyName("EVOLVED LTDA - ME")
+                        ->setTradeName(substr("EVOLVED LTDA", 0, 22))
                         ->setBankAccountList([
                             (new BankAccount())
                                 ->setAccountNumber("000007")
